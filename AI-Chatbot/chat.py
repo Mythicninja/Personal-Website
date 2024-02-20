@@ -4,6 +4,18 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
+'''
+This is the main chat file that uses all of the data from the training file and applies it to a chatbot created later 
+in this file. The data comes from the neural net model created in the model file which then processes the data in the
+training file. This file completes the cycle by being able to put the chatbot to use and connecting the chatbot to 
+the front end where many will be able to use it. 
+
+This was a very enjoyable project, and there are still many things that I learned here that I will have to revisit,
+but it was a fun experience for my first true AI project! 
+
+Skills learned: JSON, Pytorch basics, NLTK, Neural-Nets, Numpy (arrays and sets)
+'''
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as f:

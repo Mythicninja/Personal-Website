@@ -4,6 +4,11 @@ nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
+'''
+This file is used as a sort of helper file to help tokenize the sentences and create stems of the words. It also will create the 'bag of words'
+which essentially is what will later on be used to train the neural net model
+'''
+
 #tokenize the sentence and stem the words 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)

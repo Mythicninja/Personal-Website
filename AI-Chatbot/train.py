@@ -7,6 +7,16 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
 from model import NeuralNet
+
+'''
+**note** If there is a change in the json file, this file must be run again in order to train the model again.
+
+This file essentially puts everything together by taking the json file and being able to create a set of the words that the
+model will use to predict and return an output. The json will continue to grow as I find more ways to use the model, but
+the model has a very low loss rate (between 0.001-0.003) which means it is very effective in learning from the set (that also means that I am 
+not challenging it enough and should add more later).
+'''
+
 #-------getting the data ready-------
 
 #open the jsom file
@@ -18,7 +28,7 @@ tags = []
 xy = []
 
 #grab the patterns from the jsom file and tokenizes each sentence.
-#Then, it then breaks adds it to an all words set
+#Then, it then adds it to an all words set
 for intent in intents['intents']: 
     tag = intent['tag']
     tags.append(tag)
