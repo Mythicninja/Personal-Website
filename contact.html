@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- sidebar menu -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="/Assets/Profile.jpg" alt="Profile Image" class="profile-image">
+            <h4 class="profile-name">Diego Mallen</h4>
+        </div>
+        <div class="links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="projects.html" class="nav-link">Projects</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+    </div>
+    <div class="main">
+    <!-- Contact Form -->
+    <div id="form">
+        <h3 id="form-header">Contact Me</h3>
+        <form id="contactForm" method="post" action="https://script.google.com/macros/s/AKfycbwTzrD6p0NLzaybrvX5JTgf-285ZMOO8lxozSMUs971ZIsMY_9W1VuEFy8CPk1MmzneMA/exec" name="contactForm" onsubmit="openPopup(); return false;">
+            <div class="input-group">
+                <label for="firstName">First:</label><br>
+                <label for="lastName">Last:</label><br>
+            </div>
+            <div class="input-group">
+                <input type="text" id="firstName" name="firstName" required><br><br>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+            </div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" ><br><br>
+            <label for="phoneNumber">Phone Number:</label><br>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description"></textarea><br>
+            <input type="submit" name="submit" value="Submit"/>
+        </form>
+        <!-- popup window for when the user submits-->
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <p>Thank you for submitting the form!</p>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "flex";
+        }
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+    <script src="Sheet.js"></script>
+</body>
+
+</html>

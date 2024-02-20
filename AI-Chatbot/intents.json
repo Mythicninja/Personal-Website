@@ -1,0 +1,66 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "howdy", "greetings", "what's up", "hi there"],
+        "responses": ["Hello! How can I assist you today? Feel free to ask about Diego's background, his projects, how to contact him, or anything else you're curious about!",
+        "Hi there! Welcome to Diego's website. If you have any questions about his background, projects, or how to get in touch with him, just let me know!",
+        "Hey! Good to see you here. Feel free to ask me anything about Diego's background, his projects, or how to reach him.",
+        "Good [morning/afternoon/evening]! How can I assist you today? If you're interested in learning about Diego's background, his projects, or how to contact him, just ask!",
+        "Howdy! What brings you here? Whether you want to know about Diego's background, his projects, or how to get in touch with him, I'm here to help!",
+        "Greetings! What can I do for you today? If you have questions about Diego's background, his projects, or how to contact him, feel free to ask!",
+        "Hey there! How can I assist you? You can ask about Diego's background, his projects, or how to get in touch with him, among other things!",
+        "Well hello! What brings you to my website? If you want to know about Diego's background, his projects, or how to contact him, just ask!",
+        "Hiya! How can I be of service? If you're curious about Diego's background, his projects, or how to reach him, feel free to ask!",
+        "Hey! Nice to see you here. If you have questions about Diego's background, his projects, or how to contact him, I'm here to help!"]
+      },
+      {
+        "tag": "about_me",
+        "patterns": ["tell me about yourself", "who are you", "what do you do", "your background", "about you", "introduce yourself", "personal information", "background information", "more about you", "what's your story"],
+        "responses": ["I'm Merlin, Diego's chatbot, here to assist you on his website. He's passionate about tech, anime, and music. If you need any more help, feel free to let me know!",
+        "I'm Merlin, Diego's chatbot. He created me to help you navigate his site. Tech is one of his main interests, along with anime and music. How else can I assist you?",
+        "I'm Merlin, Diego's chatbot, here to help you on his website. He's into anime, music, and tech. Need assistance with anything else?",
+        "I'm Merlin, Diego's chatbot, designed to assist you here. One of his hobbies is playing guitar, in addition to his interests in tech and anime. What else can I do for you?",
+        "I'm Merlin, Diego's chatbot, programmed to help you on his website. Diego enjoys exploring technology, watching anime, and playing the guitar. How else can I assist you?"]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["show me your projects", "what have you worked on", "portfolio", "examples of your work", "your creations", "your projects", "past work", "previous projects", "demonstrate your work", "work samples"],
+        "responses": ["I'd love to! Diego has some amazing projects. Head over to the projects page to check them out!",
+        "Sure thing! Diego's projects are impressive. You can find them all on the projects page!",
+        "Absolutely! Diego's portfolio is filled with great work. Head to the projects page to see for yourself!",
+        "Of course! Diego's past projects are worth checking out. Head over to the projects page to explore!",
+        "No problem! Diego has worked on some exciting projects. You can find them all on the projects page!",
+        "Certainly! Diego's projects showcase his skills. Head to the projects page to see what he's been up to!",
+        "Sure! Diego's portfolio is filled with interesting projects. Head over to the projects page to take a look!",
+        "Absolutely! Diego has some amazing work in his portfolio. Check it out on the projects page!",
+        "Of course! Diego's previous projects are definitely worth checking out. Head to the projects page to see them!",
+        "No problem! Diego's work samples are available on the projects page. Take a look and be impressed!"]
+      },
+      {
+        "tag": "contact",
+        "patterns": ["how can I contact you", "contact information", "get in touch", "email", "reach you", "contact details"],
+        "responses": ["Sure thing! You can contact Diego via email at mallendiego@hotmail.com. Additionally, you can head over to the contact page for more ways to get in touch!",
+                      "Of course! Diego's email is mallendiego@hotmail.com. If you need more contact options, visit the contact page!",
+                      "Absolutely! You can reach out to Diego via email at mallendiego@hotmail.com. For additional contact methods, check out the contact page!",
+                      "Of course! Diego's email is mallendiego@hotmail.com. For more contact options, be sure to visit the contact page!",
+                      "No problem! Diego can be reached via email at mallendiego@hotmail.com. If you need more ways to get in touch, head over to the contact page!",
+                      "Certainly! Diego's email address is mallendiego@hotmail.com. Additionally, you can find more contact options on the contact page!",
+                      "Sure! You can contact Diego via email at mallendiego@hotmail.com. For additional contact methods, check out the contact page!",
+                      "Absolutely! Diego's email is mallendiego@hotmail.com. To explore more ways to get in touch, visit the contact page!",
+                      "Of course! Diego can be reached at mallendiego@hotmail.com. If you need more contact options, be sure to visit the contact page!",
+                      "No problem! Diego's email address is mallendiego@hotmail.com. To find more ways to contact him, head over to the contact page!"]
+      },      
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "farewell", "take care", "until next time", "catch you later", "bye bye", "have a good one", "so long"],
+        "responses": ["Goodbye! Have a great day!", "See you later! If you need anything else, feel free to ask.", "Farewell! Don't hesitate to reach out if you have more questions.", "Take care! If you need assistance later, I'm here.", "Until next time! Feel free to come back anytime.", "Catch you later! Let me know if there's anything else I can do for you.", "Bye bye! Have a wonderful day!", "Have a good one! If you need help later, just ask.", "So long! If you have more questions, feel free to return.", "Goodbye! It was nice chatting with you."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["", "sorry", "I don't understand", "can you repeat that?", "what?", "huh?", "could you say that again?", "pardon?", "I'm not sure I understand", "please repeat"],
+        "responses": ["I'm sorry, I didn't quite catch that. Could you please rephrase?", "Apologies, I'm not sure I understand. Could you try asking in a different way?", "I'm sorry, I'm having trouble understanding. Can you ask again?", "I'm not sure what you mean. Could you please provide more details?", "I didn't understand that. Can you please clarify?", "Sorry, could you repeat that in a different way?", "I'm sorry, I couldn't understand your request. Can you try again?", "I'm having trouble understanding. Can you phrase that differently?", "I didn't catch that. Could you please repeat?", "Sorry, I'm not sure what you're asking. Could you try again?"]
+      }
+    ]
+  }
+  
